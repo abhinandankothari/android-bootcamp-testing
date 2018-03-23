@@ -89,7 +89,7 @@ public class AddCharacterActivity extends AppCompatActivity {
                 String firstName = names[0];
                 String lastName;
                 if (names.length > 1) {
-                    lastName = name.substring(name.indexOf(" "));
+                    lastName = name.substring(name.indexOf(" ") + 1);
                 } else {
                     lastName = "Unknown";
                 }
